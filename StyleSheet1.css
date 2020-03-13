@@ -1,0 +1,65 @@
+﻿html {
+    background: url('wallper.png') no-repeat center center fixed;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+}
+
+#grid {
+    margin-left: 35%;
+}
+
+p {
+    font-size: 50px;
+    color: white;
+    font-family: Arcde;
+    text-align: center;
+}
+
+@font-face {
+    font-family: Arcde;
+    src: url(ARCADECLASSIC.TTF);
+}
+
+
+#grid TR TD {
+    border: 1px solid white;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+    #grid TR TD.one {
+        background: url('pinkBlock.png');
+    }
+
+    #grid TR TD.two {
+        background: url('blueBlock.png');
+    }
+
+    #grid TR TD.three {
+        background: url('redBlock.png');
+    }
+
+    #grid TR TD.four {
+        background: url('greenBlock.png');
+    }
+
+    #grid TR TD.five {
+        background: url('orangeBlock.png'); /*correct*/
+    }
+
+    #grid TR TD.six {
+        background: url('lightBlueBlock.png'); /*correct*/
+    }
+
+    #grid TR TD.seven {
+        background: url('yellowBlock.png'); /*correct*/
+    }
+
+    #grid TR TD.none {
+        background: url('background.png');
+    }
